@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		55514952122455AF00E924EA /* AsyncSocketServerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 55514951122455AF00E924EA /* AsyncSocketServerWrapper.m */; };
+		55514957122455CE00E924EA /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 55514956122455CE00E924EA /* AsyncSocket.m */; };
+		55AFE77B12121FAF00BD6A90 /* markertexture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE77A12121FAF00BD6A90 /* markertexture2.png */; };
+		55C6C46011F4DB2000C940F6 /* LCGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C6C45F11F4DB2000C940F6 /* LCGraphics.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C81E17610FD5AF2D000F3A6D /* AppGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E17600FD5AF2D000F3A6D /* AppGLView.m */; };
+		C8A3E1B1102A07EE004B425A /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A3E1B0102A07EE004B425A /* Quartz.framework */; };
+		C8A3E20A102A0882004B425A /* Kidney.icns in Resources */ = {isa = PBXBuildFile; fileRef = C8A3E209102A0882004B425A /* Kidney.icns */; };
+		C8DA893210C8D9580056FF66 /* body.lin in Resources */ = {isa = PBXBuildFile; fileRef = C8DA892810C8D9580056FF66 /* body.lin */; };
+		C8FBD6610FABFA3600A5BE6F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FBD6600FABFA3600A5BE6F /* OpenGL.framework */; };
+		C8FBD6690FABFACF00A5BE6F /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FBD6680FABFACF00A5BE6F /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8C11D9111068DFA00BB0158 /* Copy MyFrameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy MyFrameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Kidney_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kidney_Prefix.pch; sourceTree = "<group>"; };
+		55514950122455AF00E924EA /* AsyncSocketServerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocketServerWrapper.h; sourceTree = "<group>"; };
+		55514951122455AF00E924EA /* AsyncSocketServerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocketServerWrapper.m; sourceTree = "<group>"; };
+		55514955122455CE00E924EA /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		55514956122455CE00E924EA /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		55AFE77A12121FAF00BD6A90 /* markertexture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markertexture2.png; sourceTree = "<group>"; };
+		55C6C45F11F4DB2000C940F6 /* LCGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LCGraphics.framework; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Kidney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kidney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81E175F0FD5AF2D000F3A6D /* AppGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppGLView.h; sourceTree = "<group>"; };
+		C81E17600FD5AF2D000F3A6D /* AppGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppGLView.m; sourceTree = "<group>"; };
+		C8A3E1B0102A07EE004B425A /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		C8A3E209102A0882004B425A /* Kidney.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Kidney.icns; sourceTree = "<group>"; };
+		C8DA892810C8D9580056FF66 /* body.lin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = body.lin; sourceTree = "<group>"; };
+		C8FBD6600FABFA3600A5BE6F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C8FBD6670FABFACF00A5BE6F /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		C8FBD6680FABFACF00A5BE6F /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				C8FBD6610FABFA3600A5BE6F /* OpenGL.framework in Frameworks */,
+				C8A3E1B1102A07EE004B425A /* Quartz.framework in Frameworks */,
+				55C6C46011F4DB2000C940F6 /* LCGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55514955122455CE00E924EA /* AsyncSocket.h */,
+				55514956122455CE00E924EA /* AsyncSocket.m */,
+				C81E175F0FD5AF2D000F3A6D /* AppGLView.h */,
+				C81E17600FD5AF2D000F3A6D /* AppGLView.m */,
+				C8FBD6670FABFACF00A5BE6F /* AppController.h */,
+				C8FBD6680FABFACF00A5BE6F /* AppController.m */,
+				55514950122455AF00E924EA /* AsyncSocketServerWrapper.h */,
+				55514951122455AF00E924EA /* AsyncSocketServerWrapper.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Kidney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Kidney */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C8BBE2CF10F549F100D4D59B /* MyFrameworks */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Kidney;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Kidney_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55AFE77A12121FAF00BD6A90 /* markertexture2.png */,
+				C8A3E209102A0882004B425A /* Kidney.icns */,
+				C8DA892810C8D9580056FF66 /* body.lin */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				C8A3E1B0102A07EE004B425A /* Quartz.framework */,
+				C8FBD6600FABFA3600A5BE6F /* OpenGL.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8BBE2CF10F549F100D4D59B /* MyFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C6C45F11F4DB2000C940F6 /* LCGraphics.framework */,
+			);
+			name = MyFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Kidney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Kidney" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				C8C11D9111068DFA00BB0158 /* Copy MyFrameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kidney;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Kidney;
+			productReference = 8D1107320486CEB800E47090 /* Kidney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kidney" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Kidney */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Kidney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				C8A3E20A102A0882004B425A /* Kidney.icns in Resources */,
+				C8DA893210C8D9580056FF66 /* body.lin in Resources */,
+				55AFE77B12121FAF00BD6A90 /* markertexture2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				C8FBD6690FABFACF00A5BE6F /* AppController.m in Sources */,
+				C81E17610FD5AF2D000F3A6D /* AppGLView.m in Sources */,
+				55514952122455AF00E924EA /* AsyncSocketServerWrapper.m in Sources */,
+				55514957122455CE00E924EA /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/LCGraphics/build/Release\"",
+					"\"$(SRCROOT)/../Frameworks/LCUtility/build/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kidney_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/LCUtility/build/LCUtility.build/Release/LCUtility.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/../Frameworks/LCGraphics/build/LCGraphics.build/Release/LCGraphics.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/../Frameworks/LCGraphics/build/LCGraphics.build/Release/LCGraphics.build/Objects-normal/x86_64\"",
+				);
+				PRODUCT_NAME = Kidney;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/LCGraphics/build/Release\"",
+					"\"$(SRCROOT)/../Frameworks/LCUtility/build/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kidney_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/LCUtility/build/LCUtility.build/Release/LCUtility.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/../Frameworks/LCGraphics/build/LCGraphics.build/Release/LCGraphics.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/../Frameworks/LCGraphics/build/LCGraphics.build/Release/LCGraphics.build/Objects-normal/x86_64\"",
+				);
+				PRODUCT_NAME = Kidney;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				PREBINDING = NO;
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Kidney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kidney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
